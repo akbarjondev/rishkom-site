@@ -30,5 +30,44 @@ body {
 }
 
 .site__footer {
+	padding: 30px;
+	padding-bottom: 60px;
 	background-color: #384978;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	color: #ffffff;
+	background-image: url('../img/footer-img.png');
+	background-repeat: repeat-x;
+	background-position: left -7px bottom;
+}
+
+.footer__left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__left-text {
+	max-width: 350px;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.list {
+	list-style-type: none;
+	text-align: right;
+}
+
+.list__item {
+	margin-bottom: 5px;
+}
+
+.list a {
+	color: #ffffff;
 }
