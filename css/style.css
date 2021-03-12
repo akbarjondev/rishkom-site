@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v15-latin-500.woff2') format('woff2'),
+       url('../fonts/montserrat-v15-latin-500.woff') format('woff');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.site__body {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.site__logo {
+	width: 500px;
+}
+
+.site__footer {
+	background-color: #384978;
+}
