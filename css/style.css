@@ -71,3 +71,60 @@ body {
 .list a {
 	color: #ffffff;
 }
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 900px) {
+  
+  .site__logo {
+  	max-width: 400px;
+  }
+
+  .footer__left-text {
+  	font-size: 18px;
+  	line-height: 22px;
+  }
+
+  .list {
+  	font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+	.footer {
+		flex-direction: column;
+		padding-bottom: 30px;
+	}
+
+	.footer__left-text {
+		max-width: 500px;
+	}
+
+	.footer__left {
+		margin-bottom: 30px;
+	}
+
+	.list {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.site__logo {
+		width: 350px;
+	}
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+	.site__logo {
+		width: 250px;
+	}
+
+}
